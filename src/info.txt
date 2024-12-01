@@ -1,0 +1,2 @@
+store.js- where we store the states.
+CounterSlice.js - where we define the states.
