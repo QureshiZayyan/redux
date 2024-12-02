@@ -1,2 +1,13 @@
 store.js- where we store the states.
-CounterSlice.js - where we define the states.
+slices - where we define the states and write the functions.
+we import states in the main.jsx and wrap in the provider.
+we import these two in the component useSelector, useDispatch 
+useSelector - 1)it allows you to read data from the Redux store.
+              2)You provide it a function (called a selector) to specify which part of the state you want.
+              3)For reading data from the Redux store
+
+useDispatch - 1)It allows you to send actions to the Redux store, which can trigger updates to the state.
+              2)You use it to dispatch an action (an object that tells Redux what to do).
+              3)For sending actions to update the Redux store.
+import the functions that we created in the slices to the component.
+
