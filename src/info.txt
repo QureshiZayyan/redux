@@ -1,0 +1,29 @@
+            slices = initial state, reducer (functions to update state )
+                                          |
+ export the reducer functions to use in components and export to add in store
+                                          |
+                  add the reducers in the store using the slice name
+                                          |
+ import the reducer function in the component, if u want a component read the state use useSelector to read the state 
+for component and use useDisptach for updating the state
+
+
+Yes, that’s correct! 🎯 You've understood the flow well. Here's a quick confirmation:
+
+Slices contain:
+
+initialState (the starting state)
+
+reducers (functions to update the state)
+
+Exporting the reducer functions to use in components and to be added to the store.
+
+In the store, you add the reducers using the slice name.
+
+In the component, use:
+
+useSelector to read the state.
+
+useDispatch to update the state by dispatching actions.
+
+Great job! Let me know if you need more help or a deeper ex
